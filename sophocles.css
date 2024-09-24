@@ -41,6 +41,7 @@ color: hwb(133 2% 1%);
 .CE
 {
     color: green;
+    
 }
 table
 {
@@ -57,4 +58,13 @@ td, th {border: solid 1px;
 
 tr:nth-child(odd) {
     background-color: #f2f2f2;
+  }
+  
+  h6:hover
+  {
+    text-shadow: 5px 5px 20px rgb(11, 244, 104);
+    border: 2px solid rgb(40, 3, 92);
+    padding: 5px;
+    border-radius: 5px;
+    filter: blur(1px);
   }
