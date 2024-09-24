@@ -38,18 +38,23 @@ color: hwb(133 2% 1%);
 {
     color:blue;
 }
+.CE
+{
+    color: green;
+}
 table
 {
     border:dashed 3px;
     color: green;  
     padding: 1px;
-    margin: 20px;;
+    margin: 20px;
 }
 
 td, th {border: solid 1px;
     text-align: center;
     color: black;
 }
-tr {
-    background-color:rgb(241, 240, 238);
-}
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
